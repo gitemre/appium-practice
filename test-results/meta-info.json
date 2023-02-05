@@ -1,0 +1,24 @@
+{
+  "reports": [
+    {
+      "name": "Default Suite",
+      "dir": "test-results/Cum3Şub23_095102ÖS",
+      "startTime": 1675450262140
+    },
+    {
+      "name": "Default Suite",
+      "dir": "test-results/Cum3Şub23_095017ÖS",
+      "startTime": 1675450217119
+    },
+    {
+      "name": "Default Suite",
+      "dir": "test-results/Cum3Şub23_094933ÖS",
+      "startTime": 1675450172883
+    },
+    {
+      "name": "Default Suite",
+      "dir": "test-results/Cum3Şub23_094807ÖS",
+      "startTime": 1675450087365
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "name": "beforeTest",
+        "resultFileName": "BeforeTest"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1675450087458,
+      "duration": 95,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "name": "test",
+        "resultFileName": "Test",
+        "sign": "LoginTest.test()[pri:0, instance:apponteotomasyon.LoginTest@6e2829c7]"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1675450087622,
+      "duration": 5,
+      "result": "skip",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "retryCount": null,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "name": "teardown",
+        "resultFileName": "Teardown"
+      },
+      "dependsOn": [],
+      "doc": null,
+      "startTime": 1675450087636,
+      "duration": 2,
+      "result": "skip",
+      "passPer": 0.0
+    }
+  ]
+}
