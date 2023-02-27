@@ -2,14 +2,23 @@ package apponteotomasyon.test;
 
 import apponteotomasyon.base.BaseTest;
 import apponteotomasyon.page.ProfilePage;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
+import apponteotomasyon.reports.ExtentTestReports;
+import org.testng.annotations.*;
 
 public class ProfilePageTest extends BaseTest {
 
     ProfilePage profilePage;
+
+    @BeforeSuite
+    public void setupSuite(){
+        ExtentTestReports.beforeTest();
+    }
+
+    @AfterSuite
+    public void afterSuite(){
+        ExtentTestReports.afterTest();
+    }
+
     @BeforeClass
     public void before(){
         profilePage = new ProfilePage(getAppiumDriver());

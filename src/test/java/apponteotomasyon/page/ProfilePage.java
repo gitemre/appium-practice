@@ -12,27 +12,27 @@ public class ProfilePage extends BasePage {
         super(driver);
     }
 
-    //1.case methodu
+
     public ProfilePage profilePageCase() throws InterruptedException {
-        Thread.sleep(1000);
         click(PROFILE_TAB);
-        Thread.sleep(1000);
+        passLog("Profil tab'e tıklandı!");
         click(PROFILE_BUTTON);
-        Thread.sleep(1000);
+        infoLog("Profil ayarlarına tıklandı!");
         clear(COMPANY_NAME);
-        Thread.sleep(1000);
+        infoLog("Şirket ismi silindi");
         sendKeys(COMPANY_NAME,"PanteonGames");
-        Thread.sleep(1000);
+        infoLog("Şirket ismi girişi yapıldı!");
         clear(WEB_SITE);
-        Thread.sleep(1000);
+        infoLog("Şirket web site silindi");
         sendKeys(WEB_SITE,"www.panteon.games");
-        Thread.sleep(1000);
+        infoLog("Web site girişi yapıldı");
         clear(ADDRESS);
-        Thread.sleep(1000);
+        infoLog("adres silindi");
         sendKeys(ADDRESS,"ODTU Teknokent");
-        Thread.sleep(1000);
+        infoLog("Adres girişi yapıldı");
         click(PROFILE_SAVE);
-        Thread.sleep(1000);
+        passLog("Kaydet butonuna tıklandı");
+        infoLog("Profil testi tamamlandı!");
         return this;
     }
 

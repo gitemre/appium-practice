@@ -1,5 +1,6 @@
 package apponteotomasyon.base;
 
+import apponteotomasyon.reports.ExtentTestReports;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 import org.openqa.selenium.WebElement;
@@ -11,7 +12,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.time.Duration;
 
-public class BaseTest {
+public class BaseTest extends ExtentTestReports {
 
     static AppiumDriver appiumDriver = null;
 
